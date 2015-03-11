@@ -16,7 +16,9 @@
 
     <httpEndpoint id="defaultHttpEndpoint" host="*" httpPort="${port}"/>
 
-    <application name="myapp" context-root="/" location="myapp" type="war" />
+    <application name="myapp" context-root="/" location="myapp" type="war" >
+        <classloader delegation="parentLast"></classloader>
+    </application>
         
     <logging logDirectory="${application.log.dir}"/>
 
