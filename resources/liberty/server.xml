@@ -13,9 +13,14 @@
         <feature>jndi-1.0</feature>
         <feature>managedBeans-1.0</feature>
         <feature>jaxrs-1.1</feature>
-        
+        -->
+        <!--
         <feature>json-1.0</feature>
-        <feature>beanValidation-1.0</feature>-->
+        <feature>beanValidation-1.0</feature>
+        -->
+        <feature>jsp-2.2</feature>
+        <feature>localConnector-1.0</feature>
+        <feature>jaxrs-1.1</feature>
     </featureManager>
 
     <httpEndpoint id="defaultHttpEndpoint" host="*" httpPort="${port}"/>
