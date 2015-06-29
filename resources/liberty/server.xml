@@ -1,7 +1,7 @@
 <server description="new server">
 
     <!-- Enable features -->
-    <featureManager>
+    <!-- <featureManager>
         <feature>jsf-2.0</feature>
         <feature>jsp-2.2</feature>
         <feature>servlet-3.0</feature>
@@ -12,7 +12,7 @@
         <feature>jndi-1.0</feature>
         <feature>managedBeans-1.0</feature>
         <feature>jaxrs-1.1</feature>
-    </featureManager>
+    </featureManager>-->
 
     <httpEndpoint id="defaultHttpEndpoint" host="*" httpPort="${port}"/>
 
